@@ -1,0 +1,11 @@
+torch
+torchvision
+numpy
+pillow
+matplotlib
+tqdm
+pycocotools
+# notebook tooling (only needed to run / export the notebook)
+notebook
+nbconvert
+ipykernel
