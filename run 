@@ -1,0 +1,8 @@
+Sur l'autre PC (entraînement réel)
+pip install -r requirements.txt
+Télécharger COCO 2017 dans data/coco/ (voir le README) — ou utiliser Kaggle qui l'a déjà.
+Ouvrir notebook.ipynb, mettre use_coco = True + les chemins dans la cellule Configuration, Run all.
+Exporter en HTML (File > Save and Export Notebook As > HTML) → c'est le rendu Moodle.
+(Ou en headless : python train.py --train-images ... --train-ann ... --val-images ... --val-ann ...)
+
+J'ai gardé ton style : petits commits en anglais minuscule, pas de commentaires dans le code (les explications sont dans les cellules markdown du notebook).
